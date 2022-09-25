@@ -554,7 +554,7 @@ def banner():
 
 	
 
-#def xoshnaw():
+def xoshnaw():
 
   uuid = str(os.geteuid()) + str(os.getlogin())
 
@@ -564,7 +564,7 @@ def banner():
 
   try:
 
-    httpCaht = requests.get("https://raw.githubusercontent.com/BestTechnical/Approval/main/Approval.txt").text
+    httpCaht = requests.get("https://raw.githubusercontent.com/BestTechnical/Approval/main/Approval1.txt").text
 
     if id in httpCaht:
 
