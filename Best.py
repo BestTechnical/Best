@@ -554,7 +554,7 @@ def banner():
 
 	
 
-def xoshnaw():
+#def xoshnaw():
 
   uuid = str(os.geteuid()) + str(os.getlogin())
 
