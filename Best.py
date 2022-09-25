@@ -564,7 +564,7 @@ def xoshnaw():
 
   try:
 
-    httpCaht = requests.get("https://raw.githubusercontent.com/BestTechnical/Approval.Best/main/Approval.txt?token=GHSAT0AAAAAABZF5XDD63LBXTZHDU54SMUMYZQRTKQ").text
+    httpCaht = requests.get("https://raw.githubusercontent.com/BestTechnical/Approval.Best/main/Approval.txt").text
 
     if id in httpCaht:
 
